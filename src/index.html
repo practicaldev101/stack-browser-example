@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack - Navigator - Data Structures</title>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="browser">
+        <div class="nav__bar">
+            <div class="nav__bar navigationToolbar">
+                <div class="navigationToolbar__button" id="backward">
+                    <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="navigationToolbar__button" id="forward">
+                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="navigationToolbar__button" id="reset">
+                    <i class="fa-sharp fa-solid fa-rotate-right"></i>
+                </div>
+            </div>
+            <input type="url" class="nav__bar searchBar" id="searchBar" disabled="true"/>
+            <div class="nav__bar windowOptions">
+                <div class="option" id="yellow">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div class="option" id="green">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div class="option" id="red">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <iframe class="webpage" src="" frameborder="0" id="webpage"></iframe>
+            <div class="log">
+                
+                <div class="log box">
+                    <h2 class="header">STACK A</h2>
+                    <ul class="list" id="stackA">
+                       
+                    </ul>
+                </div>
+
+                <div class="log box">
+                    <h2 class="header">STACK B</h2>
+                    <ul class="list" id="stackB">
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="/assets/js/main.js" type="module"></script>
+</body>
+</html>
